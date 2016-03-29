@@ -1,0 +1,111 @@
+<head>
+  <title>Devyn Cyphers</title>
+</head>
+
+<template name="layout1">
+    {{>topNav}}
+    <main>
+        <div class="container fill-height">
+            <div class="row">
+                <div class="col s12">{{>yield}}</div>
+            </div>
+        </div>
+    </main>
+    {{>footer}}
+</template>
+
+<template name="home">
+    <h3 class="{{mainColor}}-text">Blog</h3>
+    <div class="card {{mainColor}} Accent-3">&nbsp;</div>
+    <div class="card-panel {{mainColor}}">
+        <h5 class="white-text">Hello World!</h5>
+        <span class="white-text">I'm just excited that this actually works! This is my first post (Mainly so I have some content that is live.) Soon I hope I can begin covering all of the cool stuff I have found while learning to code. Questions/Comments/Etc? Email me at Devcon42@gmail.com!</span>
+    </div>
+</template>
+
+<template name="login">
+    <h3 class="{{mainColor}}-text">Login</h3>
+    <div class="card {{mainColor}} Accent-3">&nbsp;</div>
+    
+    <div class="card-panel {{mainColor}}">
+        <h5 class="white-text">Coming Soon!</h5>
+        <span class="white-text"></span>
+    </div>
+</template>
+
+<template name="admin">
+    <h3 class="{{mainColor}}-text">Admin</h3>
+    <div class="card {{mainColor}} Accent-3">&nbsp;</div>
+    <div class="card-panel {{mainColor}}">
+        <h5 class="white-text">Coming Soon!</h5>
+        <span class="white-text"></span>
+    </div>
+</template>
+
+<template name="resume">
+    <h3 class="{{mainColor}}-text">Resume</h3>
+    <div class="card {{mainColor}} Accent-3">&nbsp;</div>
+    <div class="card-panel {{mainColor}}">
+        <h5 class="white-text">Coming Soon!</h5>
+        <span class="white-text"></span>
+    </div>
+</template>
+
+<template name="projects">
+    <h3 class="{{mainColor}}-text">Projects</h3>
+    <div class="card {{mainColor}} Accent-3">&nbsp;</div>
+    <div class="card-panel {{mainColor}}">
+        <h5 class="white-text">Coming Soon!</h5>
+        <span class="white-text"></span>
+    </div>
+</template>
+
+<template name="games">
+    <h3 class="{{mainColor}}-text">Games</h3>
+    <div class="card {{mainColor}} Accent-3">&nbsp;</div>
+    <div class="card-panel {{mainColor}}">
+        <h5 class="white-text">Coming Soon!</h5>
+        <span class="white-text"></span>
+    </div>
+</template>
+
+<template name="github">
+    <h3 class="{{mainColor}}-text">Github</h3>
+    <div class="card {{mainColor}} Accent-3">&nbsp;</div>
+    <div class="card-panel {{mainColor}}">
+        <h5 class="white-text">Coming Soon!</h5>
+        <span class="white-text"></span>
+    </div>
+</template>
+
+<template name="topNav">
+    <nav>
+        <div class="nav-wrapper {{mainColor}}">
+        <a href="/" class="brand-logo">Devyn Cyphers</a>
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/games">Games</a></li>
+            <li><a href="/resume">Resume</a></li>
+            <li><a href="/github">Github</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <li><a href="/">Blog</a></li>
+            <li><a href="/projects">Projects</a></li>
+            <li><a href="/games">Games</a></li>
+            <li><a href="/resume">Resume</a></li>
+            <li><a href="/github">Github</a></li>
+        </ul>
+        </div>
+  </nav>
+</template>
+
+<template name="footer">
+    <footer class="page-footer {{mainColor}}">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2016 Copyright
+            </div>
+        </div>
+    </footer>
+</template>
