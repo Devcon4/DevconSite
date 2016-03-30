@@ -1,0 +1,9 @@
+TO DEPLOY::
+
+1. Perform sacred ritual (take your pick they won't help you)
+
+2. Delete all files inside desktop/DevconSiteDeploy/Devconsite except for mup.json and settings.json.
+3. Copy all files inside of /app into desktop/DevconsiteDeploy/Devconsite.
+4. Run mup deploy in a commandline inside of desktop/DevconSiteDeploy/Devconsite.
+
+5. Rejoice!
